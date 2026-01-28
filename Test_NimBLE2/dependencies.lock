@@ -1,0 +1,16 @@
+dependencies:
+  cte_config:
+    dependencies: []
+    source:
+      path: E:\APP\ESP_IDF\v5.5.2\esp-idf\examples\bluetooth\nimble\ble_cte\common_components\cte_config
+      type: local
+    version: '*'
+  idf:
+    source:
+      type: idf
+    version: 5.5.2
+direct_dependencies:
+- cte_config
+manifest_hash: 665cc8f8b645b55c66ffad846ba56a0118c83f9c6f55dd718c41ae94684cb294
+target: esp32c6
+version: 2.0.0
